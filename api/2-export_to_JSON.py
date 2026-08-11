@@ -6,9 +6,9 @@ https://jsonplaceholder.typicode.com and exports all of that
 employee's tasks to a JSON file named after the employee's ID.
 """
 import json
-import sys
-
 import requests
+
+import sys
 
 BASE_URL = "https://jsonplaceholder.typicode.com"
 
@@ -45,4 +45,3 @@ def export_to_json(employee_id):
 if __name__ == "__main__":
     employee_id = int(sys.argv[1])
     export_to_json(employee_id)
-
