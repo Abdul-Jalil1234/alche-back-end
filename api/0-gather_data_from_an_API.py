@@ -5,9 +5,9 @@ This module fetches an employee's TODO list from
 https://jsonplaceholder.typicode.com and displays the progress of
 that employee's tasks on the standard output.
 """
-import sys
-
 import requests
+
+import sys
 
 BASE_URL = "https://jsonplaceholder.typicode.com"
 
